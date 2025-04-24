@@ -15,7 +15,7 @@ st.markdown("""
         --haier-light-blue: #E6F2FF;
         --haier-dark-blue: #004C99;  
         --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));    
-        --haier-gradient-light: linear-gradient(135deg, var(--haier-light-blue), white);  
+        --haier-gradient-light: linear-gradient(135deg, var(--haier-light-blue), white);    
         --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);  
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
         --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
@@ -443,7 +443,7 @@ elif menu == "数据治理":
             
                 **数据安全与合规制度的加强**: 随着数据重要性的提升，海尔加强了数据安全与合规制度。制定了详细的数据安全策略，包括数据访问控制、数据加密、数据备份和恢复等措施，确保数据的安全性和完整性。同时，海尔也注重数据合规管理，确保数据的收集、使用和共享符合相关法律法规的要求。
                 """)
-            st.write("采访:(https://www.shangyexinzhi.com/article/327480.html)")    
+            st.write("[采访](https://www.shangyexinzhi.com/article/327480.html)")
 
         with st.expander("2019-2021年(量化管理级)"):
             st.markdown("""
