@@ -463,7 +463,7 @@ elif menu == "数据治理":
             st.write("[三翼鸟](https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1)")
             st.write("[盈康一生](https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2)")
             st.write("[海尔新能源](https://haier-energy.com/about_int.html)") 
-            st.video("GDP.mp4")          
+            st.video("GDP.mp4")
 
 
 
