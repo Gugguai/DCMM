@@ -14,7 +14,7 @@ st.markdown("""
         --haier-blue: #0066CC;
         --haier-light-blue: #E6F2FF;
         --haier-dark-blue: #004C99;
-        --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));
+        --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));  
         --haier-gradient-light: linear-gradient(135deg, var(--haier-light-blue), white);
         --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
@@ -466,10 +466,10 @@ elif menu == "数据治理":
             st.write("""海尔新能源：https://haier-energy.com/about_int.html""")
 
         # 使用列布局来控制视频宽度
-        col1, col2, col3 = st.columns([1,3,1])
+        col1, col2, col3 = st.columns([1,3,1])  
         with col2:
         # 方式1：直接使用视频路径
-            st.video("e:/study/DCMM/GDP.mp4")
+            st.video("GDP.mp4")    
 
 
 
