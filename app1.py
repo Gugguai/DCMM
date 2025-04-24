@@ -443,8 +443,7 @@ elif menu == "数据治理":
             
                 **数据安全与合规制度的加强**: 随着数据重要性的提升，海尔加强了数据安全与合规制度。制定了详细的数据安全策略，包括数据访问控制、数据加密、数据备份和恢复等措施，确保数据的安全性和完整性。同时，海尔也注重数据合规管理，确保数据的收集、使用和共享符合相关法律法规的要求。
                 """)
-            st.write("""采访:https://www.shangyexinzhi.com/article/327480.html""")        
-
+            st.write(""""采访:https://www.shangyexinzhi.com/article/327480.html""")
 
         with st.expander("2019-2021年(量化管理级)"):
             st.markdown("""
@@ -461,7 +460,7 @@ elif menu == "数据治理":
                 **数据标准与规范的完善**: 海尔建立了统一的数据标准和规范，包括数据格式、编码规则、质量要求等，提高数据的一致性和准确性。例如，海尔智家通过统一数据平台，实现了全球研发中心协作，研发设计成本降低20亿元，验证一次通过率超90%。
             """)
             st.image("品牌生态.png", caption="品牌生态", width=800)
-            st.write(""""三翼鸟:https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1""")  
+            st.write(""""三翼鸟:https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1""")    
             st.write("""盈康一生:https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2""")  
             st.write("""海尔新能源:https://haier-energy.com/about_int.html""")      
             st.video("GDP.mp4")        
