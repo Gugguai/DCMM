@@ -20,7 +20,7 @@ st.markdown("""
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
         --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
         --haier-gradient-card: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(0,76,153,0.1));  
-        --haier-gradient-header: linear-gradient(135deg, rgba(0,102,204,0.8), rgba(0,76,153,0.8));
+        --haier-gradient-header: linear-gradient(135deg, rgba(0,102,204,0.8), rgba(0,76,153,0.8));  
     }
     
     /* 全局样式 */
@@ -443,7 +443,7 @@ elif menu == "数据治理":
             
                 **数据安全与合规制度的加强**: 随着数据重要性的提升，海尔加强了数据安全与合规制度。制定了详细的数据安全策略，包括数据访问控制、数据加密、数据备份和恢复等措施，确保数据的安全性和完整性。同时，海尔也注重数据合规管理，确保数据的收集、使用和共享符合相关法律法规的要求。
                 """)
-            st.write("""采访:https://www.shangyexinzhi.com/article/327480.html""")  
+            st.write("""采访:https://www.shangyexinzhi.com/article/327480.html""")        
 
 
         with st.expander("2019-2021年(量化管理级)"):
