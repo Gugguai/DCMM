@@ -460,7 +460,7 @@ elif menu == "数据治理":
                 **数据标准与规范的完善**: 海尔建立了统一的数据标准和规范，包括数据格式、编码规则、质量要求等，提高数据的一致性和准确性。例如，海尔智家通过统一数据平台，实现了全球研发中心协作，研发设计成本降低20亿元，验证一次通过率超90%。
             """)
             st.image("品牌生态.png", caption="品牌生态", width=800)
-            st.write("三翼鸟:(https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1)")          
+            st.write("三翼鸟:(https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1)")       
             st.write("""盈康一生:https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2""")    
             st.write("""海尔新能源:https://haier-energy.com/about_int.html""")      
             st.video("GDP.mp4")          
