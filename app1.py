@@ -19,13 +19,13 @@ st.markdown("""
         --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);  
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
         --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-        --haier-gradient-card: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(0,76,153,0.1));
+        --haier-gradient-card: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(0,76,153,0.1));  
         --haier-gradient-header: linear-gradient(135deg, rgba(0,102,204,0.8), rgba(0,76,153,0.8));
     }
     
     /* 全局样式 */
     body {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Arial', sans-serif;  
         line-height: 1.6;
         color: #333;
         background: var(--haier-gradient-light);
@@ -464,15 +464,14 @@ elif menu == "数据治理":
             st.write(""""三翼鸟：https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1""")
             st.write("""盈康一生：https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2""")
             st.write("""海尔新能源：https://haier-energy.com/about_int.html""")    
-
-        st.video("GDP.mp4")        
+            st.video("GDP.mp4")        
 
 
 
     elif sub_menu == "数据治理沟通":
         st.header("数据治理沟通")
         with st.expander("2012年以前(初始阶段)"):
-          st.markdown("""
+          st.markdown("""  
             **沟通渠道不畅**: 由于缺乏统一的数据治理组织和平台，各部门之间的数据治理沟通主要依靠传统的会议、邮件等方式，沟通效率较低。
             
             **缺乏统一的沟通平台**: 没有专门的数据治理沟通平台或工具，各部门在数据治理过程中难以实时共享信息、协同工作。
