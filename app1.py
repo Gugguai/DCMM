@@ -13,10 +13,10 @@ st.markdown("""
     :root {
         --haier-blue: #0066CC;
         --haier-light-blue: #E6F2FF;
-        --haier-dark-blue: #004C99;
+        --haier-dark-blue: #004C99;  
         --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));    
         --haier-gradient-light: linear-gradient(135deg, var(--haier-light-blue), white);
-        --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);  
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
         --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
         --haier-gradient-card: linear-gradient(135deg, rgba(0,102,204,0.1), rgba(0,76,153,0.1));
@@ -455,7 +455,7 @@ elif menu == "数据治理":
 
 
         with st.expander("2022年至今(优化级)"):
-            st.markdown("""
+            st.markdown("""  
                 **制度覆盖范围的拓展**: 海尔的数据治理制度覆盖了智慧住居生态、大健康产业生态和数字经济产业生态。在数字经济产业生态中，海尔通过卡奥斯COSMOPlat工业互联网平台、海纳云城市治理解决方案、卡泰池汽车场景和海尔新能源等业务，为全球企业和行业提供数字化转型解决方案。
             
                 **数据标准与规范的完善**: 海尔建立了统一的数据标准和规范，包括数据格式、编码规则、质量要求等，提高数据的一致性和准确性。例如，海尔智家通过统一数据平台，实现了全球研发中心协作，研发设计成本降低20亿元，验证一次通过率超90%。
@@ -463,8 +463,9 @@ elif menu == "数据治理":
             st.image("品牌生态.png", caption="品牌生态", width=800)
             st.write(""""三翼鸟：https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1""")
             st.write("""盈康一生：https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2""")
-            st.write("""海尔新能源：https://haier-energy.com/about_int.html""")  
-            st.video("GDP.mp4")    
+            st.write("""海尔新能源：https://haier-energy.com/about_int.html""")    
+
+        st.video("GDP.mp4")        
 
 
 
