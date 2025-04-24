@@ -14,7 +14,7 @@ st.markdown("""
         --haier-blue: #0066CC;
         --haier-light-blue: #E6F2FF;
         --haier-dark-blue: #004C99;
-        --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));  
+        --haier-gradient: linear-gradient(135deg, var(--haier-blue), var(--haier-dark-blue));    
         --haier-gradient-light: linear-gradient(135deg, var(--haier-light-blue), white);
         --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
         --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
@@ -235,7 +235,7 @@ st.markdown("""
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
+        width: 40px;  
         height: 40px;
         border-radius: 50%;
         background: var(--haier-gradient);
@@ -463,12 +463,7 @@ elif menu == "数据治理":
             st.image("品牌生态.png", caption="品牌生态", width=800)
             st.write(""""三翼鸟：https://www.sanyiniao.com/about/ppzl/?spm=sanyiniao.about-home_pc.brand_home_part04_20240115.1""")
             st.write("""盈康一生：https://www.haier.com/yingkanglife/?spm=net.haier-ecosystem_pc.hg2020_ecology_plate_03_20231113.2""")
-            st.write("""海尔新能源：https://haier-energy.com/about_int.html""")
-
-        # 使用列布局来控制视频宽度
-        col1, col2, col3 = st.columns([1,3,1])  
-        with col2:
-        # 方式1：直接使用视频路径
+            st.write("""海尔新能源：https://haier-energy.com/about_int.html""")  
             st.video("GDP.mp4")    
 
 
