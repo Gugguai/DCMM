@@ -31,8 +31,7 @@ st.markdown("""
         background: var(--haier-gradient-light);
         background-attachment: fixed;
     }
-    
-    /* 主容器样式 */
+
     .main {
         background-color: rgba(255,255,255,0.9);
         padding: 2rem;
